@@ -32,7 +32,7 @@ jobs:
  
       # Check envvar
       - name: Print DOTNET_VERSION
-        run: echo DOTNET_VERSION=${{ env.DOTNET_VERSION }}
+        run: echo look DOTNET_VERSION=${{ env.DOTNET_VERSION }}
    
   call-workflow-passing-data:
       needs: CI
