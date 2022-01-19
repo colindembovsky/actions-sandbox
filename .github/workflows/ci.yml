@@ -38,4 +38,4 @@ jobs:
       needs: CI
       uses: colindembovsky/actions-sandbox/.github/workflows/build.yml@main
       with:
-        dotnetversion: '$DOTNET_VERSION'
+        dotnetversion: ${{ env.DOTNET_VERSION }}
