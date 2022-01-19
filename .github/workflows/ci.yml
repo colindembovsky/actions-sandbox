@@ -38,4 +38,4 @@ jobs:
       needs: CI
       uses: markphip/actions-sandbox/.github/workflows/build.yml@main
       with:
-          param: echo {$DOTNET_VERSION}
+          param: ${{ env.DOTNET_VERSION }}
