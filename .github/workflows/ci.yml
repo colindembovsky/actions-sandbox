@@ -18,7 +18,6 @@ env:
 jobs:
   # This workflow contains a single job called "build"
   call-workflow-passing-data:
-      needs: CI
-      uses: colindembovsky/actions-sandbox/.github/workflows/build.yml@main
-      with:
-        dotnetversion: ${{ env.DOTNET_VERSION }}
+    uses: colindembovsky/actions-sandbox/.github/workflows/build.yml@main
+    with:
+      dotnetversion: ${{ env.DOTNET_VERSION }}
