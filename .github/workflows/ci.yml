@@ -36,6 +36,6 @@ jobs:
    
   call-workflow-passing-data:
       needs: CI
-      uses: markphip/actions-sandbox/.github/workflows/build.yml@main
+      uses: colindembovsky/actions-sandbox/.github/workflows/build.yml@main
       with:
         dotnetversion: '$DOTNET_VERSION'
