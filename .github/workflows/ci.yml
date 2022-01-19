@@ -23,7 +23,7 @@ jobs:
         echo ${{ env.DOTNET_VERSION }}
         
   # This workflow contains a single job called "build"
-  call-workflow-passing-data:
-    uses: colindembovsky/actions-sandbox/.github/workflows/build.yml@main
-    with:
-      dotnetversion: ${{ env.DOTNET_VERSION }}
+  #call-workflow-passing-data:
+  #  uses: colindembovsky/actions-sandbox/.github/workflows/build.yml@main
+  #  with:
+  #    dotnetversion: ${{ env.DOTNET_VERSION }}
